@@ -32,22 +32,54 @@ Waterfall is suitable for projects with clear, stable requirements and strict re
 Agile works best for fast-changing environment where user feedback is essential, eg Mobile apps or web applications, startups developing new software and e-commerce platforms.
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-Software Deve
+Software Developer is responsible for designing, coding, and implementing software solution.
+A QA Engineer ensures that the software meets quality standards and functions correctly before release.
+A Project Manager oversees the software development process, ensuring timely and successful project completion.
 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-
+IDE is a software application that provide comprehensive tools for coding, debugging, and testing software in a single interface. eg Visual Studio Code, IntelliJ IDEA and Pycharm
+VCS is a tool that tracks changes in code, allowing multiple developers to collaborate efficiently. eg Git, GitHub, Gitlab, Bitbucket and Apache Subversion.
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
+Managing Complex Software Requirements often change or are unclear, leading to confusion and project delays.
+Solution - Use Agile methodologies for flexibility in changing requirements.
+Regular meetings with stakeholders to clarify expectations.
+Debugging and Fixing Bugs - Identifying and resolving bugs can be time-consuming and difficult.
+Solution - Use debugging tools e.g Visual studio Debugger, Chrome DevTools.
 
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
-
-
+Unit testing - Individual components or functions of the software in isolation.
+Importance: Detects bugs early in development
+            Helps maintain code quality and simplifies debugging as well supports code refactoring without breaking functionality.
+Intergration Testing - Testing how different software modules or components work together.
+Importance - Detects errors in data exchange between modules. 
+             Ensures APIs, databases, and third-party services integrate correctly.
+             Reduces failures when assembling multiple components.
+System testing - Testing the entire application as a whole to validate end-to-end functionality.
+Importance - Validates complete software behavior under real-world environment.
+             Ensures the system works across different devices, browsers, or environments.
+             Identifies issues before deployment.
+Acceptance Testing - Verifying that the software meets business requirements and user expectations before release.
+Importance - Confirms the software is functionall and user-friendly.
+             Reduces post-deployment issues and increase user satisfaction.
+             Helps determine if the software is ready for production.
+             
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
-
+Prompt engineering is the process of designing and refining prompts (input instruction) to effectively communicate with AI models and achieve the best possible
+responses.
+Importance - Enhances AI response Quality
+             Improves AI efficiency
+             Optimizes AI for different use cases
+             Enables AI customization
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+Example of a Vague Prompt - 'Tell me about technology'
+Improved Prompt -  Explain how artificial intelligence is transforming the healthcare industry, with examples of real-world applications.
+More specific
+Clear scope
+Concise and direct.
